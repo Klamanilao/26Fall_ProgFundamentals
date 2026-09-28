@@ -1,7 +1,7 @@
 def rectangle_stats(length, width):
   print(f"length: {length:.2f}, Width: {width:.2f}")
 
-len = input("What is the length?")
-wid = input("What is the width?")
+len = int(input("What is the length?"))
+wid = int(input("What is the width?"))
 
 print(rectangle_stats(len,wid))
