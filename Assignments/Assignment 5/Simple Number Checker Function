@@ -1,10 +1,10 @@
-def check_number(number):
-  if (number % 2 == 0):
-    str_result = "even"
+def check_number(number): #This line is setting up the parameter 
+  if (number % 2 == 0): #This line is to check if its an even number
+    str = "even" #Assigning the string to the word "even" 
   else:
-    str_result = "odd"
+    str = "odd" #If the result is not even then it id odd, it is conditional 
 
-  print(f"{number} is an {str_result} number")
+  print(f"{number} is an {str} number") #This line is the finished output
 
-num = int(input("Enter a whole number"))
-print(check_number(num))
+num = int(input("Enter a whole number")) #Assigning the input to variable num 
+print(check_number(num)) #This calls the check number function
