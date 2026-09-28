@@ -1,5 +1,5 @@
-def greet_user(name):
-  print(f"Hello, {name}! Welcome aboard.")
+def greet_user(name): #This line is naming the code 
+  print(f"Hello, {name}! Welcome aboard.") #This line that gets ran 
 
-name = input("What is your name")
-print(greet_user(name))  
+name = input("What is your name") # This line shows the prompt 
+print(greet_user(name))  # This line is the greeting 
