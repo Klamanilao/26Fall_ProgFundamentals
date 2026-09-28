@@ -1,0 +1,2 @@
+def rectangle_stats(length, width):
+  print(f"length: {length}, Width: {width}")
