@@ -1,7 +1,7 @@
-def rectangle_stats(length, width):
-  print(f"length: {length:.2f}, Width: {width:.2f}")
+def rectangle_stats(length, width): #This is maming the file 
+  print(f"length: {length:.2f}, Width: {width:.2f}") #This is displaying the code 
 
-len = int(input("What is the length?"))
-wid = int(input("What is the width?"))
+len = int(input("What is the length?")) #This line is trying to see how long the interger is 
+wid = int(input("What is the width?")) #This line takes what an interger holds, converts, and stores that interger 
 
-print(rectangle_stats(len,wid))
+print(rectangle_stats(len,wid)) #This line calculates the length and width of a rectangle 
