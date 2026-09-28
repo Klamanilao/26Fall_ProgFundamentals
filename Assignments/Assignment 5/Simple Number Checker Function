@@ -1,10 +1,10 @@
 def check_number(number):
   if (number % 2 == 0):
-    str = "even:
+    str_result = "even"
   else:
-  str = "odd"
+    str_result = "odd"
 
-  print(f"{number} is an {str} number")
+  print(f"{number} is an {str_result} number")
 
-num = input("Enter a whole number")
+num = int(input("Enter a whole number"))
 print(check_number(num))
